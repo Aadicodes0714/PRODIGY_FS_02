@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Employee Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Employee Management</h1>
+    <button onclick="logout()">Logout</button>
+  </header>
+
+  <section class="form-section">
+    <h3 id="formTitle">Add Employee</h3>
+    <form id="empForm">
+      <input type="hidden" id="empId">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="text" id="phone" placeholder="Phone" required>
+      <input type="text" id="position" placeholder="Position" required>
+      <input type="text" id="department" placeholder="Department" required>
+      <input type="number" id="salary" placeholder="Salary" required>
+      <button type="submit">Save</button>
+      <button type="button" onclick="resetForm()">Cancel</button>
+    </form>
+  </section>
+
+  <table id="empTable">
+    <thead>
+      <tr><th>Name</th><th>Email</th><th>Phone</th><th>Position</th><th>Dept</th><th>Salary</th><th>Actions</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
