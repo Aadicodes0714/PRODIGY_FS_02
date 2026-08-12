@@ -6,6 +6,30 @@ A full-stack **Employee Management System** developed as part of my **PRODIGY In
 This web application allows an administrator to securely log in and manage employee records through a simple and user-friendly dashboard. The system supports complete **CRUD operations** including adding, viewing, updating, and deleting employee information.
 
 ---
+📁 Project Structure.. 
+
+employee-management-system/
+├── backend/
+│   ├── config/db.js
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Employee.js
+│   ├── middleware/auth.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── employeeRoutes.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── employeeController.js
+│   ├── .env
+│   └── server.js
+├── frontend/
+│   ├── index.html
+│   ├── login.html
+│   ├── dashboard.html
+│   ├── style.css
+│   └── app.js
+└── package.json
 
 ## 🚀 Features
 
