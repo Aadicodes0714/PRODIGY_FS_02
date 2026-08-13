@@ -6,6 +6,18 @@ A full-stack **Employee Management System** developed as part of my **PRODIGY In
 This web application allows an administrator to securely log in and manage employee records through a simple and user-friendly dashboard. The system supports complete **CRUD operations** including adding, viewing, updating, and deleting employee information.
 
 ---
+
+
+## 🌐 Live Demo
+
+🚀 **[View Live Demo →](https://prodigy-fs-02-0bd1.onrender.com/)**
+
+## 📂 Source Code
+
+💻 **[View GitHub Repository →](https://github.com/Aadicodes0714/PRODIGY_FS_02)**
+
+---
+
 ## 🚀 Features
 
 ### 🔐 Admin Authentication
